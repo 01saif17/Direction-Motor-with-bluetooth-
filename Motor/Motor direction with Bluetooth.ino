@@ -76,7 +76,7 @@ void loop() {
 void sens1() {
   digitalWrite(in1, 1);
   digitalWrite(in2, 0);
-  digitalWrite(in3, 0);
+  digitalWrite(in3, 1);
   digitalWrite(in4, 0);
   ledcAttachPin(ENA, 204); // this for ESP32 same analogwrite(ENA,204);
   ledcAttachPin(ENB, 204);
